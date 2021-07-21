@@ -39,14 +39,6 @@ function Cover(){
                                         LinkedIn
                                     </span>
                                 </a>
-                                <a class="button is-info is-rounded" href="http://twitter.com/slansamet" target="_blank">
-                                    <span class="icon is-small">
-                                        <FA name="twitter"/>
-                                    </span>
-                                    <span>
-                                        Twitter
-                                    </span>
-                                </a>
                                 <a class="button is-success is-rounded" href="mailto:me@samet-aslan.de">
                                     <span class="icon is-small">
                                         <FA name="envelope"/>
