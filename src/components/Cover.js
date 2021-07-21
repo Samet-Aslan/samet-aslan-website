@@ -15,7 +15,7 @@ function Cover(){
                                 Full-Stack Web & App Developer
                             </h1>
                             <h3 class="subtitle is-4-desktop">
-                                Open minded developer with a passion for code.
+                                Open minded developer who likes to turn ideas into reality.
                             </h3>
                             <MyAvatar></MyAvatar>
                             <p class="subtitle is-5">

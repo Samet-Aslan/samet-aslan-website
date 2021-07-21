@@ -15,11 +15,8 @@ function Footer(){
     }
     
     return(
-
-        
-
         <footer class="footer">
-            <div class="modal">
+            <div class="modal ">
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head">
@@ -32,13 +29,13 @@ function Footer(){
                 </div>
             </div>
             
-            <div class="content has-text-centered">
+            <div class="content has-text-centered"> 
+                <p>
+                    <div class="made-by-bulma"><a href="https://bulma.io"><img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="163" height="31"/></a></div>
+                </p>
                 <p>
                     <a onClick={doStuff}>Imprint</a>
-                </p>  
-                <p>
-                    Developed with <a href="https://reactjs.org/" target="_blank">ReactJS</a> - Designed with <a href="https://bulma.io/" target="_blank">Bulma</a> - Hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>
-                </p>
+                </p> 
             </div>
         </footer>
     );
