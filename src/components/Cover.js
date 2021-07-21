@@ -11,10 +11,10 @@ function Cover(){
                 <div class="container">
                     <div class="columns is-centered">
                         <div class="column">
-                            <h1 class="title is-1 is-spaced">
+                            <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
                                 Full-Stack Web & App Developer
                             </h1>
-                            <h3 class="subtitle is-4">
+                            <h3 class="subtitle is-4-desktop">
                                 Open minded developer with a passion for code.
                             </h3>
                             <MyAvatar></MyAvatar>
