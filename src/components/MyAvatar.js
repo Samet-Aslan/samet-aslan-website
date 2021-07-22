@@ -8,14 +8,14 @@ function MyAvatar(){
                 avatarStyle='Circle'
                 topType='ShortHairShortFlat'
                 accessoriesType='Blank'
-                hairColor='Black'
+                hairColor='BrownDark'
                 facialHairType='BeardLight'
-                facialHairColor='Black'
+                facialHairColor='BrownDark'
                 clotheType='Hoodie'
                 clotheColor='Heather'
                 eyeType='Happy'
                 eyebrowType='DefaultNatural'
-                mouthType='Twinkle'
+                mouthType='Smile'
                 skinColor='Light'
             />
     );
