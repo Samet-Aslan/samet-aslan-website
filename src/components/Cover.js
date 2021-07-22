@@ -3,10 +3,11 @@ import 'bulma/css/bulma.css';
 import FA from 'react-fontawesome';
 import MyAvatar from './MyAvatar';
 
+
 function Cover(){
 
     return(
-        <section class="hero is-white is-fullheight has-text-centered">
+        <section class="herois-fullheight has-text-centered">
             <div class="hero-body">
                 <div class="container">
                     <div class="columns is-centered">

@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.particles_container{
+  position : absolute;
+  width: 100%;
+  display: block;
+  z-index:-1;
+}
+
+#tsparticles{
+  height: 600px;
+}
