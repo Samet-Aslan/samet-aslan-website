@@ -13,7 +13,7 @@ function Footer(){
         const modal = document.querySelector('.modal');
         modal.style.display = 'none';
     }
-    
+
     return(
         <footer class="footer">
             <div class="modal ">
@@ -34,7 +34,7 @@ function Footer(){
                     <div class="made-by-bulma"><a href="https://bulma.io"><img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="163" height="31"/></a></div>
                 </p>
                 <p>
-                    <a onClick={doStuff}>Imprint</a>
+                    <a onClick={doStuff}>Imprint & Privacy Policy</a>
                 </p> 
             </div>
         </footer>
