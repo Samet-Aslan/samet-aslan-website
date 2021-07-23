@@ -22,3 +22,15 @@ code {
 #tsparticles{
   height: 600px;
 }
+
+.fe-logo{
+  max-width: 250px;
+}
+
+.columns{
+
+}
+
+columns is-vcentered is-centered{
+  background-color: rosybrown;
+}
