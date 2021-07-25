@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation.js";
 import Cover from "./components/Cover.js";
 import Footer from './components/Footer.js';
 import MyParticles from './components/MyParticles.js';
+import Section from './components/Section.js';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <MyParticles/>
       <Cover/>
+      <Section/>
       <Footer/>
     </div>
   );
