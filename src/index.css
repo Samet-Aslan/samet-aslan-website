@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display:flex; 
+  flex-direction:column; 
+  justify-content:center;
+  min-height:100vh;
 }
 
 code {
@@ -20,17 +24,35 @@ code {
 }
 
 #tsparticles{
-  height: 600px;
+  height: 100%;
 }
 
-.fe-logo{
-  max-width: 250px;
+
+.image{
+  max-width: 200px;
+  max-height: 150px;
 }
 
-.columns{
 
+#app-con{
+  background-image: url("images/app.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.9);
+  background-position: right;
 }
 
-columns is-vcentered is-centered{
-  background-color: rosybrown;
+#fe-con{
+  background-image: url("images/frontend.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.9);
+  background-position: right;
+}
+
+#be-con{
+  background-image: url("images/backend.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.9);
 }
