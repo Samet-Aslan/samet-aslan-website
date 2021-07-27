@@ -21,18 +21,17 @@ code {
   width: 100%;
   display: block;
   z-index:-1;
+  height: 100vh;
 }
-
+ 
 #tsparticles{
-  height: 100%;
+  height: 100vh;
 }
-
 
 .image{
   max-width: 200px;
   max-height: 150px;
 }
-
 
 #app-con{
   background-image: url("images/app.png");

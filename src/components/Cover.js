@@ -13,14 +13,14 @@ function Cover(){
                     <div class="columns is-centered">
                         <div class="column">
                             <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
-                                full-stack web & app developer
+                                Full-Stack Web & App developer
                             </h1>
                             <h3 class="subtitle is-4-desktop">
-                                open minded developer who likes to turn ideas into reality.
+                                An open minded developer who likes to turn ideas into reality.
                             </h3>
                             <MyAvatar></MyAvatar>
                             <p class="subtitle is-5">
-                                samet aslan
+                                Samet Aslan
                             </p>
                             
                             <div class="buttons is-centered are-small">
@@ -29,7 +29,7 @@ function Cover(){
                                         <FA name="github"/>
                                     </span>
                                     <span>
-                                        github
+                                        GitHub
                                     </span>
                                 </a>
                                 <a class="button is-link is-rounded" href="https://www.linkedin.com/in/samet-aslan-795382140/" target="_blank">
@@ -37,7 +37,7 @@ function Cover(){
                                         <FA name="linkedin"/>
                                     </span>
                                     <span>
-                                        linkedin
+                                        LinkedIn
                                     </span>
                                 </a>
                                 <a class="button is-success is-rounded" href="mailto:me@samet-aslan.de">
@@ -45,7 +45,7 @@ function Cover(){
                                         <FA name="envelope"/>
                                     </span>
                                     <span>
-                                        mail
+                                        E-Mail
                                     </span>
                                 </a>
                             </div>
@@ -54,6 +54,7 @@ function Cover(){
                 </div>
             </div>
         </section>
+
     );
 
 }

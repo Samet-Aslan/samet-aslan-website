@@ -17,13 +17,13 @@ class Section extends React.Component{
     render(){
         return(
                 <div>
-                    <section class="section is-medium has-text-centered" id="fe-con">
+                    <section class="section is-small has-text-centered" id="fe-con">
                         <div class="hero-body">
                             <div class="container">
                                 <div class="columns is-centered">
                                     <div class="column is-full">
                                         <h1 class="title is-spaced is-size-2-desktop is-size-3-tablet is-size-4-mobile">
-                                        my front end skills
+                                        My Front-End Skills
                                         </h1>
                                     </div>
                                 </div>
@@ -48,20 +48,20 @@ class Section extends React.Component{
                         </div>
                     </section>
 
-                    <section class="section has-text-centered" id="be-con">
+                    <section class="section is-small has-text-centered" id="be-con">
                         <div class="hero-body">
                             <div class="container">
                                 <div class="columns is-centered">
                                     <div class="column is-full">
                                         <h1 class="title is-spaced is-size-2-desktop is-size-3-tablet is-size-4-mobile">
-                                            my back end skills
+                                            My Back-End Skills
                                         </h1>
                                     </div>
                                 </div>
                                 <div class="columns is-centered is-vcentered is-flex">
                                     <div class="column is-narrow">
                                             <figure class="image is-3by3">
-                                            <img src={php}/>
+                                                <img src={php}/>
                                             </figure>
                                     </div>
                                     <div class="column is-narrow">
@@ -71,7 +71,7 @@ class Section extends React.Component{
                                     </div>
                                     <div class="column is-narrow">
                                             <figure class="image is-3by3">
-                                            <img src={java}/>
+                                                <img src={java}/>
                                             </figure>
                                     </div>
                                 </div>
@@ -79,22 +79,18 @@ class Section extends React.Component{
                         </div>
                     </section>
 
-                    <section class="section is-medium has-text-centered " id="app-con">
+                    <section class="section is-small has-text-centered " id="app-con">
                         <div class="hero-body">
                             <div class="container">
                                 <div class="columns is-centered">
                                     <div class="column is-full">
                                         <h1 class="title is-spaced is-size-2-desktop is-size-3-tablet is-size-4-mobile">
-                                            my app dev skills
+                                            My App Dev Skills
                                         </h1>
                                     </div>
                                 </div>
                                 <div class="columns is-centered is-vcentered is-flex" >
-                                    <div class="column is-narrow">
-                                            <figure class="image is-3by3">
-                                            <img src={kotlin}/>
-                                            </figure>
-                                    </div>
+
                                     <div class="column is-narrow">
                                             <figure class="image is-3by3">
                                                 <img src={jandroid}/>
