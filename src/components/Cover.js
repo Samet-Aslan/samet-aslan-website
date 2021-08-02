@@ -13,7 +13,7 @@ function Cover(){
                     <div class="columns is-centered">
                         <div class="column">
                             <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
-                                Full-Stack Web & App developer
+                                Full-Stack Web & App Developer
                             </h1>
                             <h3 class="subtitle is-4-desktop">
                                 An open minded developer who likes to turn ideas into reality.
