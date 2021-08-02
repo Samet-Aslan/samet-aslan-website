@@ -29,29 +29,38 @@ code {
   height: 650px;
 }
 
-#app-con{
-  background-image: url("images/app.png");
+#techstack-con{
+  background-image: url("images/techstack.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.9);
-  background-position: right;
+  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.95);
+  background-position: center;
 }
 
-#fe-con{
-  background-image: url("images/frontend.png");
+#projects-con{
+  background-image: url("images/projects.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.9);
-  background-position: right;
+  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.95);
+  background-position: center;
 }
 
-#be-con{
-  background-image: url("images/backend.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.9);
-}
 
 .stack-logo{
-  max-height: 100px;
+  max-height: 75px;
+}
+
+.project-image{
+  max-height: 400px;
+}
+
+.navbar .navbar-brand {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.navbar .navbar-brand > .navbar-item,
+.navbar .navbar-brand .navbar-link {
+  display: inline-block;
 }

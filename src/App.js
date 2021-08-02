@@ -5,11 +5,13 @@ import Footer from './components/Footer.js';
 import MyParticles from './components/MyParticles.js';
 import TechStackSection from './components/TechStackSection.js';
 import ProjectSection from './components/ProjectsSection.js';
+import Navigation from './components/Navigation.js';
 
 
 function App() {
   return (
     <div className="App">
+      <Navigation/>
       <MyParticles/>
       <Cover/>
       <TechStackSection/>

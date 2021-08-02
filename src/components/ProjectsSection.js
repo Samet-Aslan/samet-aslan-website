@@ -19,13 +19,13 @@ class ProjectSection extends React.Component{
                                 <div class="columns">
                                     <div class="column is-full">
                                         <h1 class="title is-spaced is-size-2-desktop is-size-3-tablet is-size-4-mobile">
-                                            Some of my projects
+                                            My Projects
                                         </h1>
                                     </div>
                                 </div>
                                 <div class="columns is-vcentered">
                                     <div class="column is-half has-text-left">
-                                        <h1 class="title is-spaced is-size-2-desktop is-size-3-tablet is-size-4-mobile">
+                                        <h1 class="title is-spaced is-size-3-desktop is-size-4-tablet is-size-5-mobile">
                                             LIYA.STORE
                                         </h1>
                                         <h2 class="subtitle">
@@ -33,16 +33,16 @@ class ProjectSection extends React.Component{
                                         </h2>
                                     </div>
                                     <div class="column">
-                                        <img src={liya}/>    
+                                        <img src={liya} className="project-image"/>    
                                     </div>
                                 </div>
                                 <div class="columns is-vcentered">
                                     
                                     <div class="column">
-                                        <img src={ernstberger}/>    
+                                        <img src={ernstberger} className="project-image"/>    
                                     </div>
                                     <div class="column is-half has-text-left">
-                                        <h1 class="title is-spaced is-size-2-desktop is-size-3-tablet is-size-4-mobile">
+                                        <h1 class="title is-spaced is-size-3-desktop is-size-4-tablet is-size-5-mobile">
                                             ERNSTBERGERJONAS.DE
                                         </h1>
                                         <h2 class="subtitle">
