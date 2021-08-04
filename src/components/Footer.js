@@ -31,7 +31,7 @@ function Footer(){
             
             <div class="content has-text-centered"> 
                 <p>
-                    <div class="made-by-bulma"><a href="https://bulma.io"><img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="163" height="31"/></a></div>
+                    <div class="made-by-bulma"><a href="https://bulma.io" target="_blank"><img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="163" height="31"/></a></div>
                 </p>
                 <p>
                     <a onClick={doStuff}>Imprint & Privacy Policy</a>

@@ -38,9 +38,8 @@ code {
 }
 
 #projects-con{
-  background-image: url("images/projects.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-repeat: repeat;
+  background-size: 300px;
   box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.95);
   background-position: center;
 }
@@ -63,4 +62,20 @@ code {
 .navbar .navbar-brand > .navbar-item,
 .navbar .navbar-brand .navbar-link {
   display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+  #tobereversed{
+    flex-direction: column-reverse;
+    display: flex;
+    margin-bottom: 50px;
+  }
+
+  #techstack-column{
+    display: flex;
+  }
+
+  #techstack-column .column{
+    flex:50%;
+  }
 }

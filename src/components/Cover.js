@@ -2,6 +2,7 @@ import React from 'react';
 import 'bulma/css/bulma.css';
 import FA from 'react-fontawesome';
 import MyAvatar from './MyAvatar';
+import logo from '../images/logo.png';
 
 
 function Cover(){

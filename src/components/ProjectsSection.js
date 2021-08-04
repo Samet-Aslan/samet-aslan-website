@@ -10,20 +10,18 @@ class ProjectSection extends React.Component{
     render(){
 
         return(
-
             <div>
-
-                    <section class="section is-small has-text-centered" id="projects-con">
+                    <section class="section has-text-centered" id="projects-con">
                         <div class="hero-body">
                             <div class="container">
                                 <div class="columns">
                                     <div class="column is-full">
-                                        <h1 class="title is-spaced is-size-2-desktop is-size-3-tablet is-size-4-mobile">
-                                            My Projects
+                                        <h1 class="title is-spaced is-size-2-desktop is-size-3-tablet is-size-3-mobile">
+                                            Projects
                                         </h1>
                                     </div>
                                 </div>
-                                <div class="columns is-vcentered">
+                                <div class="columns is-vcentered" id="tobereversed">
                                     <div class="column is-half has-text-left">
                                         <h1 class="title is-spaced is-size-3-desktop is-size-4-tablet is-size-5-mobile">
                                             LIYA.STORE
@@ -33,13 +31,13 @@ class ProjectSection extends React.Component{
                                         </h2>
                                     </div>
                                     <div class="column">
-                                        <img src={liya} className="project-image"/>    
+                                        <a href="https://liya.store/" target="_blank"><img src={liya} className="project-image"/></a>
                                     </div>
                                 </div>
+                                
                                 <div class="columns is-vcentered">
-                                    
                                     <div class="column">
-                                        <img src={ernstberger} className="project-image"/>    
+                                        <a href="https://ernstbergerjonas.de" target="_blank"><img src={ernstberger} className="project-image"/></a>
                                     </div>
                                     <div class="column is-half has-text-left">
                                         <h1 class="title is-spaced is-size-3-desktop is-size-4-tablet is-size-5-mobile">
