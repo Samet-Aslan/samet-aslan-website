@@ -15,23 +15,23 @@ function Footer(){
     }
 
     return(
-        <footer class="footer">
-            <div class="modal ">
-                <div class="modal-background"></div>
-                <div class="modal-card">
-                    <header class="modal-card-head">
-                        <p class="modal-card-title">Impressum</p>
-                        <button class="delete" aria-label="close" onClick={closeIt}></button>
+        <footer className="footer">
+            <div className="modal ">
+                <div className="modal-background"></div>
+                <div className="modal-card">
+                    <header className="modal-card-head">
+                        <p className="modal-card-title">Impressum</p>
+                        <button className="delete" aria-label="close" onClick={closeIt}></button>
                     </header>
-                    <section class="modal-card-body">
+                    <section className="modal-card-body">
                         <Impressum/>
                     </section>
                 </div>
             </div>
             
-            <div class="content has-text-centered"> 
+            <div className="content has-text-centered"> 
                 <p>
-                    <div class="made-by-bulma"><a href="https://bulma.io" target="_blank"><img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="163" height="31"/></a></div>
+                    <div className="made-by-bulma"><a href="https://bulma.io" target="_blank"><img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="163" height="31"/></a></div>
                 </p>
                 <p>
                     <a onClick={doStuff}>Imprint & Privacy Policy</a>

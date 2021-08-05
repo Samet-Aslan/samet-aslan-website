@@ -20,7 +20,7 @@ class MyParticles extends React.Component{
 
       render(){
         return(
-            <div class="particles_container">
+            <div className="particles_container">
 
             <Particles
             id="tsparticles"

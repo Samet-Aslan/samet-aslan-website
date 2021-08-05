@@ -4,6 +4,7 @@ import FA from 'react-fontawesome';
 import spring from '../images/spring.png';
 import liya from '../images/liya.store.PNG';
 import ernstberger from '../images/ernstberger.PNG';
+import TitleSubtitle from "./TitleSubtitle";
 
 class ProjectSection extends React.Component{
 
@@ -11,39 +12,33 @@ class ProjectSection extends React.Component{
 
         return(
             <div>
-                    <section class="section has-text-centered" id="projects-con">
-                        <div class="hero-body">
-                            <div class="container">
-                                <div class="columns">
-                                    <div class="column is-full">
-                                        <h1 class="title is-spaced is-size-2-desktop is-size-3-tablet is-size-3-mobile">
-                                            Projects
-                                        </h1>
-                                    </div>
-                                </div>
-                                <div class="columns is-vcentered" id="tobereversed">
-                                    <div class="column is-half has-text-left">
-                                        <h1 class="title is-spaced is-size-3-desktop is-size-4-tablet is-size-5-mobile">
+                    <section className="section has-text-centered" id="projects-con">
+                        <div className="hero-body">
+                            <div className="container">
+                                <TitleSubtitle title="Projects" subtitle="These are the projects I was mainly involved in."/>
+                                <div className="columns is-vcentered" id="tobereversed">
+                                    <div className="column is-half has-text-left">
+                                        <h1 className="title is-spaced is-size-3-desktop is-size-4-tablet is-size-5-mobile">
                                             LIYA.STORE
                                         </h1>
-                                        <h2 class="subtitle">
+                                        <h2 className="subtitle">
                                             Liya.Store is a shop for women clothing. It is built with WooCommerce and Elementor. A custom dashboard has been developed with PHP and JavaScript.
                                         </h2>
                                     </div>
-                                    <div class="column">
+                                    <div className="column">
                                         <a href="https://liya.store/" target="_blank"><img src={liya} className="project-image"/></a>
                                     </div>
                                 </div>
                                 
-                                <div class="columns is-vcentered">
-                                    <div class="column">
+                                <div className="columns is-vcentered">
+                                    <div className="column">
                                         <a href="https://ernstbergerjonas.de" target="_blank"><img src={ernstberger} className="project-image"/></a>
                                     </div>
-                                    <div class="column is-half has-text-left">
-                                        <h1 class="title is-spaced is-size-3-desktop is-size-4-tablet is-size-5-mobile">
+                                    <div className="column is-half has-text-left">
+                                        <h1 className="title is-spaced is-size-3-desktop is-size-4-tablet is-size-5-mobile">
                                             ERNSTBERGERJONAS.DE
                                         </h1>
-                                        <h2 class="subtitle">
+                                        <h2 className="subtitle">
                                             ErnstbergerJonas is an advertising agency. The landing page is built with WordPress and Elementor.
                                         </h2>
                                     </div>

@@ -12,56 +12,51 @@ import swiftui from '../images/swiftui.png';
 import kotlin from '../images/kotlin.png';
 import jandroid from '../images/androidwithjava.png';
 import wp from '../images/wp.png';
+import TitleSubtitle from "./TitleSubtitle";
 
 
 class Section extends React.Component{
     render(){
         return(
                 <div>
-                    <section class="section has-text-centered" id="techstack-con">
-                        <div class="hero-body">
-                            <div class="container">
-                                <div class="columns is-centered">
-                                    <div class="column is-full">
-                                        <h1 class="title is-spaced is-size-2-desktop is-size-3-tablet is-size-3-mobile">
-                                            Technologies
-                                        </h1>
-                                    </div>
-                                </div>
+                    <section className="section has-text-centered" id="techstack-con">
+                        <div className="hero-body">
+                            <div className="container">
+                                <TitleSubtitle title="Technologies" subtitle="In the following you can see the technologies I like to use for web and app development."/>
                                 
-                                <div class="columns is-vcentered is-centered is-multiline is-moible" id="techstack-column">
-                                    <div class="column is-narrow">
-                                        <img src={js} class="stack-logo"/>
+                                <div className="columns is-vcentered is-centered is-multiline is-moible" id="techstack-column">
+                                    <div className="column is-narrow">
+                                        <img src={js} className="stack-logo"/>
                                         <h2 className="subtitle">JavaScript</h2>
                                     </div>
 
-                                    <div class="column is-narrow">                             
-                                        <img src={php} class="stack-logo"/>
+                                    <div className="column is-narrow">                             
+                                        <img src={php} className="stack-logo"/>
                                         <h2 className="subtitle">PHP</h2>                                   
                                     </div>
-                                    <div class="column is-narrow">
-                                        <img src={react} class="stack-logo"/>
+                                    <div className="column is-narrow">
+                                        <img src={react} className="stack-logo"/>
                                         <h2 className="subtitle">ReactJS</h2>  
                                     </div>
-                                    <div class="column is-narrow">
-                                        <img src={wp} class="stack-logo"/>
+                                    <div className="column is-narrow">
+                                        <img src={wp} className="stack-logo"/>
                                         <h2 className="subtitle">WordPress</h2>    
                                     </div>
                                     
-                                    <div class="column is-narrow">  
-                                        <img src={java} class="stack-logo"/>
+                                    <div className="column is-narrow">  
+                                        <img src={java} className="stack-logo"/>
                                         <h2 className="subtitle">Java</h2>
                                     </div>
-                                    <div class="column is-narrow">    
-                                        <img src={jandroid} class="stack-logo"/>
+                                    <div className="column is-narrow">    
+                                        <img src={jandroid} className="stack-logo"/>
                                         <h2 className="subtitle">Java for Android</h2>
                                     </div>
-                                    <div class="column is-narrow">
-                                        <img src={swift} class="stack-logo"/>
+                                    <div className="column is-narrow">
+                                        <img src={swift} className="stack-logo"/>
                                         <h2 className="subtitle">Swift</h2>
                                     </div>
-                                    <div class="column is-narrow">
-                                        <img src={swiftui} class="stack-logo"/>
+                                    <div className="column is-narrow">
+                                        <img src={swiftui} className="stack-logo"/>
                                         <h2 className="subtitle">SwiftUI</h2>
                                     </div>
                                 </div>
@@ -71,7 +66,7 @@ class Section extends React.Component{
 
                         </div>
                     </section>
-            </div>
+                </div>
         );
     }
 }

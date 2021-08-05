@@ -2,7 +2,7 @@ import React from "react";
 
 function Impressum(){
     return( 
-            <div class='impressum'>
+            <div className='impressum'>
                 <p>Angaben gemäß § 5 TMG</p><p>Samet Aslan <br/> Enoch-Widman-Str. 85<br/> 95028 Hof <br/> </p>
                 <p> <strong>Vertreten durch: </strong><br/> Samet Aslan<br/></p>
                 <p><strong>Kontakt:</strong> <br/> Telefon: 0151-21312989<br/> E-Mail: <a href='mailto:me@samet-aslan.de'>me@samet-aslan.de</a><br/></p>
