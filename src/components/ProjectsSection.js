@@ -1,7 +1,5 @@
 import React from "react";
 import 'bulma/css/bulma.css';
-import FA from 'react-fontawesome';
-import spring from '../images/spring.png';
 import liya from '../images/liya.store.PNG';
 import ernstberger from '../images/ernstberger.PNG';
 import TitleSubtitle from "./TitleSubtitle";
