@@ -49,8 +49,16 @@ code {
   max-height: 75px;
 }
 
+.stack-logo:hover{
+  transform: scale(1.05);
+}
+
 .project-image{
   max-height: 400px;
+}
+
+.project-image:hover{
+  transform: scale(1.05);
 }
 
 .navbar .navbar-brand {
