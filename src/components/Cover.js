@@ -2,8 +2,6 @@ import React from 'react';
 import 'bulma/css/bulma.css';
 import FA from 'react-fontawesome';
 import MyAvatar from './MyAvatar';
-import logo from '../images/logo.png';
-
 
 function Cover(){
 
@@ -16,7 +14,7 @@ function Cover(){
                             <h1 className="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
                                 Full-Stack Web & App Developer
                             </h1>
-                            <h3 className="subtitle is-4-desktop">
+                            <h3 className="subtitle is-size-4-desktop">
                                 An open minded developer who likes to turn ideas into reality.
                             </h3>
                             <MyAvatar></MyAvatar>
@@ -55,9 +53,6 @@ function Cover(){
                 </div>
             </div>
         </section>
-
     );
-
 }
-
 export default Cover;

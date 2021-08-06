@@ -1,59 +1,51 @@
 import React from "react";
 import 'bulma/css/bulma.css';
-import liya from '../images/liya.store.PNG';
-import ernstberger from '../images/ernstberger.PNG';
 import TitleSubtitle from "./TitleSubtitle";
+import ProjectItem from "./ProjectItem";
 
-class ProjectSection extends React.Component{
+let projects = [
+    {    
+        name:"liya.store", 
+        description:"Liya.Store is a shop for women clothing. It is built with WooCommerce and Elementor. A custom dashboard has been developed with PHP and JavaScript.",
+        reverse:"y",
+        image:"/static/media/liya.store.90209ee8.PNG",
+        url:"https://liya.store/"},
+    {
+        name:"ernstbergerjonas.de",
+        description:"ErnstbergerJonas is an advertising agency. The landing page is built with WordPress and Elementor.",
+        reverse:"n",
+        image:"/static/media/ernstberger.4ef83708.PNG",
+        url:"https://ernstbergerjonas.de/"
+}];
 
+  class ProjectSection extends React.Component{
     render(){
+        let result = [];
+        var i = 1;
+        projects.forEach(function(project) {
+          result.push(
+            <ProjectItem 
+                name={project.name} 
+                description={project.description} 
+                reverse={project.reverse}
+                image={project.image.toString()}
+                url={project.url}
+                id={i}/>)
+          i++;
+        }, this);
 
         return(
             <div>
-                    <section className="section has-text-centered" id="projects-con">
-                        <div className="hero-body">
-                            <div className="container">
-                                <TitleSubtitle title="Projects" subtitle="These are the projects I was mainly involved in."/>
-                                <div className="columns is-vcentered" id="tobereversed">
-                                    <div className="column is-half has-text-left">
-                                        <h1 className="title is-spaced is-size-3-desktop is-size-4-tablet is-size-5-mobile">
-                                            LIYA.STORE
-                                        </h1>
-                                        <h2 className="subtitle">
-                                            Liya.Store is a shop for women clothing. It is built with WooCommerce and Elementor. A custom dashboard has been developed with PHP and JavaScript.
-                                        </h2>
-                                    </div>
-                                    <div className="column">
-                                        <a href="https://liya.store/" target="_blank"><img src={liya} className="project-image"/></a>
-                                    </div>
-                                </div>
-                                
-                                <div className="columns is-vcentered">
-                                    <div className="column">
-                                        <a href="https://ernstbergerjonas.de" target="_blank"><img src={ernstberger} className="project-image"/></a>
-                                    </div>
-                                    <div className="column is-half has-text-left">
-                                        <h1 className="title is-spaced is-size-3-desktop is-size-4-tablet is-size-5-mobile">
-                                            ERNSTBERGERJONAS.DE
-                                        </h1>
-                                        <h2 className="subtitle">
-                                            ErnstbergerJonas is an advertising agency. The landing page is built with WordPress and Elementor.
-                                        </h2>
-                                    </div>
-                                </div>
-
-                            </div>
+                <section className="section has-text-centered" id="projects-con">
+                   <div className="hero-body">
+                        <div className="container">
+                            <TitleSubtitle title="Projects" subtitle="These are the projects I was mainly involved in."/>
+                            {result}
                         </div>
-                    </section>
-
+                    </div>
+                </section>
             </div>
-
-
         );
-
     }
-
-
 }
-
 export default ProjectSection;

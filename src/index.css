@@ -64,6 +64,10 @@ code {
   transform: scale(1.05);
 }
 
+#project-title{
+  text-transform: uppercase;
+}
+
 .navbar .navbar-brand {
   text-align: center;
   display: block;
@@ -75,12 +79,23 @@ code {
   display: inline-block;
 }
 
+#reverse{
+  flex-direction: row-reverse;
+}
+
 @media only screen and (max-width: 768px) {
-  #tobereversed{
+  #mobile-reverse{
     flex-direction: column-reverse;
     display: flex;
     margin-bottom: 50px;
   }
+
+  #reverse{
+    flex-direction: column-reverse;
+    display: flex;
+  }
+
+  
 
   #techstack-column{
     display: flex;
