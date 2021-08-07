@@ -29,7 +29,7 @@ class MyParticles extends React.Component{
             options={{
                 "particles": {
                   "number": {
-                    "value": 5,
+                    "value": 7,
                     "density": {
                       "enable": true,
                       "value_area": 800
@@ -82,12 +82,12 @@ class MyParticles extends React.Component{
                   },
                   "move": {
                     "enable": true,
-                    "speed": 4,
-                    "direction": "none",
-                    "random": false,
-                    "straight": false,
+                    "speed": 3,
+                    "direction": "top",
+                    "random": true,
+                    "straight": true,
                     "out_mode": "out",
-                    "bounce": false,
+                    "bounce": true,
                     "attract": {
                       "enable": false,
                       "rotateX": 600,
