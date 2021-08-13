@@ -2,6 +2,8 @@ import React from "react";
 import 'bulma/css/bulma.css';
 import TitleSubtitle from "./TitleSubtitle";
 import ProjectItem from "./ProjectItem";
+import liya from '../images/liya.store.PNG';
+import ernstberger from '../images/ernstberger.PNG';
 
 let projects = [
     {    
