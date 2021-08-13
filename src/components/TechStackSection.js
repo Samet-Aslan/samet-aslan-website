@@ -3,12 +3,12 @@ import 'bulma/css/bulma.css';
 import java from '../images/java.png';
 import react from '../images/react.png';
 import php from '../images/php.png';
-import js from '../images/js.png';
+import js from '../images/javascript.png';
 import swift from '../images/swift.png';
-import swiftui from '../images/swiftui.png';
-import jandroid from '../images/androidwithjava.png';
-import wp from '../images/wp.png';
+import jandroid from '../images/android.png';
+import wp from '../images/wordpress.png';
 import TitleSubtitle from "./TitleSubtitle";
+import css from "../images/css.png";
 
 
 class Section extends React.Component{
@@ -35,31 +35,27 @@ class Section extends React.Component{
                                         <h2 className="subtitle is-size-6-desktop is-size-6-tablet is-size-6-mobile">ReactJS</h2>  
                                     </div>
                                     <div className="column is-narrow">
+                                        <img src={css} className="stack-logo"/>
+                                        <h2 className="subtitle is-size-6-desktop is-size-6-tablet is-size-6-mobile">CSS</h2>
+                                    </div>
+                                    <div className="column is-narrow">
                                         <img src={wp} className="stack-logo"/>
                                         <h2 className="subtitle is-size-6-desktop is-size-6-tablet is-size-6-mobile">WordPress</h2>    
                                     </div>
-                                    
                                     <div className="column is-narrow">  
                                         <img src={java} className="stack-logo"/>
                                         <h2 className="subtitle is-size-6-desktop is-size-6-tablet is-size-6-mobile">Java</h2>
                                     </div>
                                     <div className="column is-narrow">    
                                         <img src={jandroid} className="stack-logo"/>
-                                        <h2 className="subtitle is-size-6-desktop is-size-6-tablet is-size-6-mobile">Java for Android</h2>
+                                        <h2 className="subtitle is-size-6-desktop is-size-6-tablet is-size-6-mobile">Android</h2>
                                     </div>
                                     <div className="column is-narrow">
                                         <img src={swift} className="stack-logo"/>
                                         <h2 className="subtitle is-size-6-desktop is-size-6-tablet is-size-6-mobile">Swift</h2>
                                     </div>
-                                    <div className="column is-narrow">
-                                        <img src={swiftui} className="stack-logo"/>
-                                        <h2 className="subtitle is-size-6-desktop is-size-6-tablet is-size-6-mobile">SwiftUI</h2>
-                                    </div>
                                 </div>
-                               
-                              
                             </div>
-
                         </div>
                     </section>
                 </div>

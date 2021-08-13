@@ -1,6 +1,7 @@
 import React from "react";
 import 'bulma/css/bulma.css';
 import Impressum from "./Impressum";
+import Logo from "../images/logo-white.png";
 
 function Footer(){
 
@@ -29,9 +30,9 @@ function Footer(){
                 </div>
             </div>
             
-            <div className="content has-text-centered"> 
-                <p>
-                    <div className="made-by-bulma"><a href="https://bulma.io" target="_blank"><img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="163" height="31"/></a></div>
+            <div className="content has-text-centered">
+                <p class="footer-logo">
+                    <img src={Logo}></img>
                 </p>
                 <p>
                     <a onClick={doStuff}>Imprint & Privacy Policy</a>

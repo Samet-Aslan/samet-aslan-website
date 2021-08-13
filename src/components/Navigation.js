@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
-import logo from '../images/logo.png';
+import logo from '../images/logo-white.png';
 
 function Navigation() {
     return(

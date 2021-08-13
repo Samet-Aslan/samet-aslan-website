@@ -11,6 +11,7 @@ import Navigation from './components/Navigation.js';
 function App() {
   return (
     <div className="App">
+      <Navigation></Navigation>
       <MyParticles/>
       <Cover/>
       <TechStackSection/>

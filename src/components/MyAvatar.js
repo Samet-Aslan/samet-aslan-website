@@ -1,6 +1,5 @@
 import React from "react";
 import Avatar from "avataaars";
-import me from "../images/me.jpg"
 
 function MyAvatar(){
 
