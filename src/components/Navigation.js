@@ -7,7 +7,7 @@ function Navigation() {
         <nav className="navbar">
             <div className="navbar-brand">
                 <a className="navbar-item" href="https://samet-aslan.de/">
-                    <img src={logo}/>
+                    <img src={logo} alt="Header Logo of Samet Aslan"/>
                 </a>
             </div>
         </nav>

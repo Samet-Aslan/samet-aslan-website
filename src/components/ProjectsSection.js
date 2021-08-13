@@ -30,7 +30,8 @@ let projects = [
                 reverse={project.reverse}
                 image={project.image.toString()}
                 url={project.url}
-                id={i}/>)
+                id={i}
+                key={i}/>)
           i++;
         }, this);
 

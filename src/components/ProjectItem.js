@@ -1,11 +1,9 @@
 import React from "react";
-import liya from '../images/liya.store.PNG';
-import ernstberger from '../images/ernstberger.PNG';
 
 function ProjectItem(props){
 
     var rev = "";
-    if(props.id % 2 != 0){
+    if(props.id % 2 !== 0){
         rev = "reverse"
     }
     else{
@@ -24,7 +22,7 @@ function ProjectItem(props){
                 </h2>
             </div>
             <div className="column">
-                <a href={props.url} target="_blank"><img src={props.image} className="project-image"/></a>
+                <a href={props.url} target="_blank" rel="noreferrer"><img src={props.image} alt="website screenshot" className="project-image"/></a>
             </div>
         </div>        
     );

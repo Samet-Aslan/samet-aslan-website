@@ -9,7 +9,6 @@ body {
   flex-direction:column; 
   justify-content:center;
   min-height:100vh;
-
 }
 
 code {
@@ -39,8 +38,6 @@ code {
 }
 
 #techstack-con{
-  /*background-image: url("images/techstack.svg");*/
-
   background-color: transparent;
 }
 
@@ -112,6 +109,10 @@ code {
 #job-status-link img{
   height: 20px;
   padding-left: 5px;
+}
+
+.imprint{
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {

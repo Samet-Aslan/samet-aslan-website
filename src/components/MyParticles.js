@@ -137,11 +137,9 @@ class MyParticles extends React.Component{
                 "retina_detect": true
               }}
           />
-    
             </div>
         );
-        
-      }  
+      }
 
 }
 export default MyParticles;

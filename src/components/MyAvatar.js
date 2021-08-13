@@ -17,7 +17,7 @@ function MyAvatar(){
                         eyebrowType='DefaultNatural'
                         mouthType='Smile'
                         skinColor='Light'
-                    />    
+                    />
     );
 }
 export default MyAvatar;

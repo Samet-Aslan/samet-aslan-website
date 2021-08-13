@@ -31,12 +31,12 @@ function Footer(){
             </div>
             
             <div className="content has-text-centered">
-                <p class="footer-logo">
-                    <img src={Logo}></img>
-                </p>
-                <p>
-                    <a onClick={doStuff}>Imprint & Privacy Policy</a>
-                </p> 
+                <div className="footer-logo">
+                    <img src={Logo} alt="Footer Logo of Samet Aslan"></img>
+                </div>
+                <div className="imprint">
+                    <span onClick={doStuff}>Imprint & Privacy Policy</span>
+                </div> 
             </div>
         </footer>
     );
