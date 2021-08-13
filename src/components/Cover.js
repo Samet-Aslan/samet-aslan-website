@@ -21,6 +21,10 @@ function Cover(){
                             <p className="title is-5">
                                 Samet Aslan
                             </p>
+                            <p className="subtitle is-7">
+                                currently employed by 
+                                <a href="https://accenture.com/" target="_blank" id="job-status-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Accenture.svg/2560px-Accenture.svg.png"/></a>
+                            </p>
                             
                             <div className="buttons is-centered are-small">
                                 <a className="button is-rounded" href="https://github.com/Samet-Aslan" target="_blank">

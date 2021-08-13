@@ -86,7 +86,7 @@ class MyParticles extends React.Component{
                     "direction": "top",
                     "random": true,
                     "straight": true,
-                    "out_mode": "out",
+                    "out_mode": "bounce",
                     "bounce": true,
                     "attract": {
                       "enable": false,
