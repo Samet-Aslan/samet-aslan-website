@@ -113,6 +113,13 @@ code {
 
 .imprint{
   color: white;
+
+}
+
+#project-title a{
+  color:black;
+  text-decoration: underline;
+  text-decoration-color: #65c9ff;
 }
 
 @media only screen and (max-width: 768px) {
