@@ -11,14 +11,9 @@ let projects = [
         description:"Liya.Store is a shop for women clothing. It is built with WooCommerce and Elementor. A custom dashboard has been developed with PHP and JavaScript.",
         reverse:"y",
         image:"/static/media/liya.store.90209ee8.PNG",
-        url:"https://liya.store/"},
-    {
-        name:"ernstbergerjonas.de",
-        description:"ErnstbergerJonas is an advertising agency. The landing page is built with WordPress and Elementor.",
-        reverse:"n",
-        image:"/static/media/ernstberger.4ef83708.PNG",
-        url:"https://ernstbergerjonas.de/"
-}];
+        url:"https://liya.store/"
+    }
+];
 
   class ProjectSection extends React.Component{
     render(){
