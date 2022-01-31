@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display:flex; 
-  flex-direction:column; 
+  flex-direction: column; 
   justify-content:center;
   min-height:100vh;
 }
@@ -26,7 +26,7 @@ code {
   width: 100%;
   display: block;
   z-index:-1;
-  height: 2100px;
+  height: max-content;
 }
 
 .subtitle{
@@ -87,6 +87,7 @@ code {
 
 .footer{
   background-color: #65c9ff !important;
+  align-self: flex-end;
 }
 
 .content a{
